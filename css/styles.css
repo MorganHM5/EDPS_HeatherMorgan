@@ -3,53 +3,18 @@
 /* Example Variables */
 :root {
 	/* Fonts */
-	--main-font-primary: "Proxima-Nova", sans-serif;
-	--main-font-secondary: "Montserrat", sans-serif;
-	--main-font-tertiary: "Comfortaa", cursive;
+    --font-family1: "Montserrat", sans-serif;
+    --font-family2: "Raleway", sans-serif;
+    --font-family3: "Roboto", sans-serif;
+    
 	/* Colors */
-	--main-color-gray: #485359;
-	--main-color-white: #e9f0f2;
-	--main-color-black: #0d0d0d;
-	--main-color-light: #5ef2ad;
-	--main-color-dark: #45735d;
-	--main-color-light2: #f38888;
-	--main-color-dark2: #d27575;
-	--main-color-light3: #a0d3f2;
-	--main-color-dark3: #769bb3;
-}
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: white;
-  color: black;
-  border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.button2 {
-  background-color: white;
-  color: black;
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
+    
+	--main-color-dkred: #980000;
+	--main-color-white: #FFFFFF;
+	--main-color-black: #383737;
+	--main-color-ltred: #e67d7d;
+	--main-color-mdgrey: #5a5858;
+	--main-color-ltgrey: #d0caca;
 }
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -58,7 +23,20 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Example Syntax */
 #sec_lan {
 	height: 200vh;
-	background-color: var(--main-color-white);
+	background-color: #5a5858;
+    font-family: "Montserrat", sans-serif;
+}
+
+#sec_bio {
+	height: 200vh;
+	background-color: #980000);
+    font-family: "Raleway", sans-serif;
+}
+
+#sec_info {
+	height: 200vh;
+	background-color: #5a5858;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -76,3 +54,4 @@ No media query for `xs` since this is the default in Bootstrap */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
+
