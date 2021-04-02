@@ -1,7 +1,7 @@
 .flexbox-container{
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: flex-beginning;
 }
 
 .flexbox item{
@@ -34,14 +34,14 @@ html {
 
 .flexbox-container {
     position: relative;
-    background-color: yellow;
+    background-color: red;
 }
 
 .flexbox-container::before {
     content: 'Flexbox Container';
     position: absolute;
     top: -40px;
-    color: yellow;
+    color: red;
     font-size: 2em;
 }
 
@@ -62,7 +62,7 @@ html {
     transform: translateY(-50%);
     height: 5px;
     width: 100%;
-    background-color: red;
+    background-color: yellow;
 }
 
 .axis::after {
@@ -75,7 +75,7 @@ html {
 .main-axis::after {
     position: absolute;
     content: 'Main Axis';
-    color: red;
+    color: yellow;
 }
 
 .cross-axis::after {
@@ -142,7 +142,6 @@ html {
     display: flex;
   
 }
-
 
 .flexbox-item{
     width: 200px;
