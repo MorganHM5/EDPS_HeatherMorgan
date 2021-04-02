@@ -2,27 +2,27 @@
     height: 100px;
     font-size: 30px;
     background-color: #00AAFF;
-    padding: 5px;
+    padding: 10px;
 }
 
 .child-one{
     background-color: rgb(116, 25, 116);
     position: relative;
-    left: 10px;
+    left: 20px;
     top: 10px;
 }
 
 .child-two{
     background-color: rgb(248, 117, 117);
     position: relative;
-    left: 50px;
+    left: 30px;
     top: 50px;
 }
 
 .child-three{
     background-color: rgb(255, 116, 232);
     position: relative;
-    left: 100px;
+    left: 40px;
     top: 100px;
 }
 
