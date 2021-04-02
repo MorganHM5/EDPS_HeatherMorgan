@@ -1,28 +1,76 @@
 .parent{
-    height: 100px;
-    font-size: 30px;
-    background-color: #00AAFF;
-    padding: 10px;
+    height: 700px;
+    width: 700px;
+    font-size: 42px;
+    text-align: center;
+    background-color: #dfdfdf;
+    position: fixed;
+    border: solid 3px #c7181c;
+    padding: 20px;
+    background-image: url(/assets/img/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
 }
 
 .child-one{
-    background-color: rgb(116, 25, 116);
-    position: relative;
-    left: 20px;
-    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7181c;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 100px;
+    border: solid 3px #333;
+    font-family: inherit;
+    font-size: 36px;
+    
+
 }
 
 .child-two{
-    background-color: rgb(248, 117, 117);
-    position: relative;
-    left: 30px;
-    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7181c;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 400px;
+    top: 100px;
+    border: solid 3px #333;
+    font-family: inherit;
+    font-size: 36px  
 }
+
 
 .child-three{
-    background-color: rgb(255, 116, 232);
-    position: relative;
-    left: 40px;
-    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7181c;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 400px;
+    border: solid 3px #333;
+    font-family: inherit;
+    font-size: 36px  
 }
 
+.child-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7181c;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 400px;
+    top: 400px;
+    border: solid 3px #333;
+    font-family: inherit;
+    font-size: 36px  
+}
