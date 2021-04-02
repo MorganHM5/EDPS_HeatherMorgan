@@ -38,9 +38,10 @@ html {
 }
 
 .flexbox-container::before {
-    content: 'Flexbox Container';
+    content: 'What is a Flexbox?';
     position: absolute;
     top: -40px;
+    padding: 10px;
     color: #c7181c;
     font-size: 2em;
 }
