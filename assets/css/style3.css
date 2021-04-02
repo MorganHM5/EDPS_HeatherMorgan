@@ -40,7 +40,7 @@ html {
 .flexbox-container::before {
     content: 'What is a Flexbox?';
     position: absolute;
-    top: -40px;
+    top: -20px;
     padding: 10px;
     color: #ffffff;
     font-family: "fontello";
