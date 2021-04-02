@@ -1,7 +1,7 @@
 .flexbox-container{
     display: flex;
     justify-content: space-around;
-    align-items: flex-beginning;
+    align-items: flex-end;
 }
 
 .flexbox item{
