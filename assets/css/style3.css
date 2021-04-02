@@ -5,7 +5,7 @@
 }
 
 .flexbox item{
-    width: 200px;
+    width: 100px;
     margin: 10px;
     border: 3px solid #333;
     background-color: #dfdfdf
@@ -34,14 +34,14 @@ html {
 
 .flexbox-container {
     position: relative;
-    background-color: red;
+    background-color: #c7181c;
 }
 
 .flexbox-container::before {
     content: 'Flexbox Container';
     position: absolute;
     top: -40px;
-    color: red;
+    color: #c7181c;
     font-size: 2em;
 }
 
