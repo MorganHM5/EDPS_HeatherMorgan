@@ -18,6 +18,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
 }
 
 .flexbox-item-1 {
@@ -40,13 +43,10 @@ html {
 .flexbox-container::before {
     content: 'What is a Flexbox?';
     position: absolute;
-    top: -20px;
+    top: -60px;
     padding: 10px;
     color: #ffffff;
-    font-family: "fontello";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
+    font-size: 2em;
 }
 
 .axis {
