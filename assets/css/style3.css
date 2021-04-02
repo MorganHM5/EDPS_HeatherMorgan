@@ -42,8 +42,11 @@ html {
     position: absolute;
     top: -40px;
     padding: 10px;
-    color: #c7181c;
-    font-size: 2em;
+    color: #ffffff;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
 }
 
 .axis {
