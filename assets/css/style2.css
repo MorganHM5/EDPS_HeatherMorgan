@@ -7,7 +7,7 @@
     position: fixed;
     border: solid 3px #c7181c;
     padding: 20px;
-    background-image: url(assets/img/profile.jpg);
+    background-image: url(/assets/img/profile.jpg);
     background-repeat: no-repeat;
     background-size: cover
 }
