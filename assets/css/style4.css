@@ -12,7 +12,7 @@
 }
 
 .parent:hover .child{
-    animation animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 @keyframes left-to-right {
