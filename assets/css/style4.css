@@ -1,0 +1,74 @@
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: midnightblue;   
+}
+
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    animation: left to right 1s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child{
+    animation animation-play-state: paused;
+}
+
+@keyframes left-to-right {
+    
+    0%{background-color: red; transform: translateX(0%)}
+    33%{background-color: yellow; transform: translateY(100%)}
+    66%{background-color: orange; transform: translateX(100%) translateY(100%)}
+    100%{background-color: yellow; transform: translateX(100%)}
+}
+
+/*
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  transition-duration: 2s;
+  transition-property: width;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container:hover .box {
+  width: 600px;
+}
+
+.one {
+  background: #07BEB8;
+  transition-timing-function: linear;
+}
+
+.two {
+  background: #3DCCC7;
+  transition-timing-function: ease-in;
+}
+
+.three {
+  background: #9CEAEF;
+  transition-timing-function: ease-out;
+}
+
+.four {
+  background: #B1F8F2;
+  transition-timing-function: ease-in-out;
+}
+*/
+
+
+/*
+  transition-delay: 0;
+  transition-duration: 1s;
+  transition-property: background;
+  transition-timing-function: ease;
+*/
