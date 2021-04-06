@@ -20,7 +20,7 @@
     0%{background-color: red; transform: translateX(0%);}
     33%{background-color: yellow; transform: translateY(100%);}
     66%{background-color: orange; transform: translateX(100%) translateY(100%);}
-    100%{background-color: yellow; transform: translateX(100%);}
+    100%{background-color: red; transform: translateX(100%);}
 }
 
 /*
