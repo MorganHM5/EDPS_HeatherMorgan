@@ -15,12 +15,31 @@
     animation-play-state: paused;
 }
 
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: midnightblue;   
+}
+
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    transition: transform 1000ms ease-in;
+}
+
+.parent:hover .child{
+    animation: left-to-right 2s ease-in forwards;
+}
+
 @keyframes left-to-right {
     
     0%{background-color: red; transform: translateX(0%);}
-    33%{background-color: yellow; transform: translateY(100%);}
-    66%{background-color: orange; transform: translateX(100%) translateY(100%);}
-    100%{background-color: red; transform: translateX(100%);}
+    20%{background-color: yellow; transform: translateY(100%) rotate (45);}
+    40%{background-color: orange; transform: translateX(100%) translateY(100%);}
+    60%{background-color: orange; transform: translateX(100%);}
+    80%{background-color: yellow; transform: translateY(100%);}
+    100%{background-color: red; transform: translateX(100%) rotate (90);}
 }
 
 /*
